@@ -19,7 +19,7 @@ GET /?channel=[opera update channel]&format=[output format]
 Both parameters are optional.
 
 - channel: 'stable' (default), 'beta', or 'developer'
-- format: 'json' (default), 'xml'
+- format: 'json' (default) or 'xml'
 
 ### Examples
 This app runs in my spreadsheet.
