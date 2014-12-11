@@ -1,6 +1,8 @@
 Opera Update Checker
 --------------------
 
+This is a Google Apps Script that get latest version of Opera.
+
 ## Developing enviroment
 
 - JavaScript
