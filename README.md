@@ -25,6 +25,16 @@ Both parameters are optional.
 This app runs in my spreadsheet.
 
 - [channel=stable&format=json](https://script.google.com/macros/s/AKfycbydMspXLOzC1Sm3ugkargF-S9pRzSsnAT_J_ywmNz9eGP-EpiP9/exec?channel=stable&format=json)
+```json
+{
+  "version":"26.0.1656.32",
+  "downloadUrl":"http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/26.0.1656.32/win/Opera_26.0.1656.32_Setup.exe",
+  "channel":"stable",
+  "errMsg":null,
+  "isSucceeded":true
+}
+```
+- [channel=developer&format=xml](https://script.google.com/macros/s/AKfycbydMspXLOzC1Sm3ugkargF-S9pRzSsnAT_J_ywmNz9eGP-EpiP9/exec?channel=developer&format=xml)
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <object>
@@ -38,16 +48,6 @@ This app runs in my spreadsheet.
     <true/>
   </isSucceeded>
 </object>
-```
-- [channel=developer&format=xml](https://script.google.com/macros/s/AKfycbydMspXLOzC1Sm3ugkargF-S9pRzSsnAT_J_ywmNz9eGP-EpiP9/exec?channel=developer&format=xml)
-```json
-{
-  "version":"26.0.1656.32",
-  "downloadUrl":"http://operasoftware.pc.cdn.bitgravity.com/pub/opera/desktop/26.0.1656.32/win/Opera_26.0.1656.32_Setup.exe",
-  "channel":"stable",
-  "errMsg":null,
-  "isSucceeded":true
-}
 ```
 
 ### License
