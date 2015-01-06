@@ -50,7 +50,7 @@ function getOperaDownloadInfo(channel) {
   var response = UrlFetchApp.fetch(url);
   var code = response.getResponseCode();
   var content = response.getContentText();
-  
+
   // HTTP ステータスコードが 200 である場合、成功
   if (code !== 200) {
     return { errMsg: 'Can\'t fetch Opera website' }; // 失敗
@@ -77,8 +77,9 @@ function getOperaVersionInfo(url) {
   if (!url) {
     return { errMsg: 'Can\'t find download URL' };
   }
-  
+
   var response = UrlFetchApp.fetch(url, params);
+
   var headers = response.getHeaders();
   var code = response.getResponseCode();
   var location = headers.Location;
@@ -92,7 +93,9 @@ function getOperaVersionInfo(url) {
   if (!location) {
     return { errMsg: 'Can\'t find *.exe url' }; // 失敗
   }
-  
+
+
+
   // バージョンを取得
   var matches = location.match(VERSION_REGEX);
   
