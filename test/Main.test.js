@@ -152,4 +152,4 @@ vows.describe('doGet').addBatch({
       expect(channel[0].toString()).to.not.be.empty;
     },
   }
-}).run();
+}).export(module);
