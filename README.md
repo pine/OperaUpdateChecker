@@ -1,7 +1,7 @@
 Opera Update Checker
 --------------------
-[![Build Status](https://travis-ci.org/pine613/OperaUpdateChecker.svg?branch=master)](https://travis-ci.org/pine613/OperaUpdateChecker)
-[![devDependency Status](https://david-dm.org/pine613/OperaUpdateChecker/dev-status.svg)](https://david-dm.org/pine613/OperaUpdateChecker#info=devDependencies)
+[![Build Status](https://travis-ci.org/pine/OperaUpdateChecker.svg?branch=master)](https://travis-ci.org/pine/OperaUpdateChecker)
+[![devDependency Status](https://david-dm.org/pine/OperaUpdateChecker/dev-status.svg)](https://david-dm.org/pine/OperaUpdateChecker#info=devDependencies)
 
 This is a Google Apps Script that get latest version of Opera.
 
@@ -61,5 +61,4 @@ $ npm test
 ```
 
 ### License
-MIT License<br />
-Copyright (C) 2014-2015 Pine Mizune
+MIT License
