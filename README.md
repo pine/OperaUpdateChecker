@@ -1,7 +1,7 @@
 Opera Update Checker
 --------------------
 [![Build Status](https://travis-ci.org/pine/OperaUpdateChecker.svg?branch=master)](https://travis-ci.org/pine/OperaUpdateChecker)
-[![devDependency Status](https://david-dm.org/pine/OperaUpdateChecker/dev-status.svg)](https://david-dm.org/pine/OperaUpdateChecker#info=devDependencies)
+[![devDependency Status](https://david-dm.org/pine/OperaUpdateChecker/dev-status.svg)](https://david-dm.org/pine/OperaUpdateChecker#info=devDependencies) [![Greenkeeper badge](https://badges.greenkeeper.io/pine/OperaUpdateChecker.svg)](https://greenkeeper.io/)
 
 This is a Google Apps Script that get latest version of Opera.
 
